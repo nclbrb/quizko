@@ -42,7 +42,7 @@ function Quiz({ onFinish }) {
           className="mt-3"
           variant="success"
           onClick={handleNext}
-          disabled={!selected} // Disable if no answer is selected
+          disabled={!selected} 
         >
           Next
         </Button>
